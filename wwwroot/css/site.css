@@ -1,0 +1,219 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+  @media screen and (max-width: 768px) {
+    #footer_nav{
+      gap: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+      font-size: 11px;
+    }
+  }
+  @media screen and (max-width: 326px) {
+    #footer_nav{
+      grid-template-columns: repeat(1, 1fr);
+      padding: 3rem 2rem;
+    }
+    
+  }
+
+  * {
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .flex-container {
+    display: flex;
+  }
+  body{
+    background:#E9F0C9;
+  }
+  header{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    height:58px;
+    margin-top: 20px;
+    
+  }
+  .menu{
+    background: #142026;
+    border-radius: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .login{
+    display:flex;
+    margin: auto;
+    padding: auto;
+  }
+  .list{
+    color: white;
+    text-align: center;
+    align-content: center;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .list {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    justify-content: space-between;
+  }
+    
+  
+  ul li a {
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  
+  }  
+  #title, .subtitle, .post_title {
+    color: #ffffff;
+  }
+  #title{
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  
+  .principal {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
+    min-width: 320px;
+    height: 900px;
+    background-color: #123142;
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+    padding: 100px;
+    justify-content: space-around;
+  }
+  div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    color: #E9F0C9;
+    float: left;
+    width: 320px;
+    align-content: center;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    height: 12rem;
+    width: 18rem;
+    padding: 0.5rem;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  #footer_nav {
+    background-color:#20130A;
+    gap: 1.5rem;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+  }
+  footer {
+    width: 100%;
+    color:#ffffff; 
+  }
+  .footer-link{
+    text-decoration: none;
+  }
+  .redes-sociais {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    
+  }
+  .rede{
+    margin-bottom: 0.75rem;
+  }
+  #rede .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #f0e6e6;
+    border-radius: 50%;
+    transition: all 0.5s;
+  }
+  #rede .footer-link i {
+    font-size: 1.25rem;
+  }
+  #rede .footer-link:hover{
+    opacity: 0.8;
+  }
+
+  .footer.list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+  }
+  .footer.list .footer-link{
+    color: #4267b3;
+    transition: all 0.5;
+  }
+  .footer.list .footer-link:hover{
+    color: #7f37c9;
+  }
+  .f-inscreva{
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+  .f-inscreva p {
+    color: #4267b3;
+  }
+  #input-group{
+    display: flex;
+    align-items: center;
+    background-color: #e5e5e5;
+    border-radius: 4px;
+  }
+  #input-group input{
+    all:unset;
+    padding: 0.75rem;
+    width: 100%;
+  }
+  .footer-link img{
+    width: 30px;
+    height: 30px;
+  }
+  #input-group button{
+    background-color: #777;
+    border: none;
+    color: #ccc;
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+  }
+  #input-group button{
+    opacity: 0.8;
+  }
+  .ft2{
+    display: flex;
+    background-color:#ffffff;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    justify-content: center;
+    font-weight: 100;
+  }
+  
